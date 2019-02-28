@@ -24,7 +24,7 @@ class App < Sinatra::Base
     @n2 = params[:num2].to_i
     # <%= @n1 * @n2 %>
     product = @n1 * @n2
-    "product"
+    "#{product}"
   end
   
 end
