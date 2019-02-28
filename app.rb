@@ -24,4 +24,5 @@ class App < Sinatra::Base
     @n2 = params[:num2]
     <%= "#{@n1}" %>
   end
+  
 end
